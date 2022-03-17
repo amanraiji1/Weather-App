@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/weather.png">
+  </head>
+  <body>
+
+<form id="search-form" action="/" method="post">
+  <input type="search" name="cityName" id="search-input" placeholder="Enter City Name" required autocomplete="off">
+  <br>
+ <button type="submit" id="search-button">Search</button>
+
+</form>
+
+<main id="app-container">
+  <div id="location">
+         <p>-------</p>
+  </div>
+
+  <div id="temp">
+    <img id="temp-icon" src="images/clear.png" alt="Default">
+    <p><span class="temp-value">-------</span><span id="temp-unit">°C</span></p>
+  </div>
+
+</main>
+
+
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+
+</html>
