@@ -5,24 +5,25 @@
 }
 
 body{
-  height : 100px;
-  background-color: #42C2FF;
   text-align: center;
   color:black;
+}
+
+.weather-section{
+  padding-bottom: 18%;
   font-family: cursive;
 }
 
 #search-form{
   display: flex;
   justify-content: center;
+  padding-top : 7%;
   align-items: center;
-  margin-top: 100px;
 }
 
 
 #temp #temp-unit{
   font-size: 1.5rem;
-
 }
 
 #temp .temp-value{
@@ -41,6 +42,8 @@ body{
 }
 
 main{
+  text-align: center;
+  font-weight: bolder;
   padding:20px;
   margin-top: 10px;
   background-color: #B8FFF9;
@@ -54,8 +57,8 @@ main{
 }
 
 #search-button{
-  color : #494949;
-  background: #B8FFF9;
+  color : white;
+  background: #04f8e4;
   border-radius: 5px;
   margin-left: 5px;
   padding: 11px;
@@ -72,7 +75,7 @@ main{
   margin: 8px 0;
   padding : 8px 0;
   border-bottom: 3px solid #ff6768;
-  color : #fff;
+  color : black;
   outline : none;
   background: none;
 }
@@ -80,3 +83,54 @@ main{
 input{
   border: none;
 }
+
+/* Home Page */
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+}
+
+#title {
+  color: black;
+  text-align: left;
+}
+
+#container-fluid{
+  padding-left : 0;
+  padding-right: 0;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #04f8e4;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.section1{
+  margin: 3% 7%;
+  padding: 2% 15%;
+  text-align: left;
+}
+
+#weather{
+  color : #04f8e4;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.btn:hover{
+  background-color: #04f8e4;
+}
+

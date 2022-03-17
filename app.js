@@ -45,6 +45,10 @@ app.post("/", function(req, res) {
 
 // Client types my URL
 app.get("/", function(req, res) {
+  res.sendFile(__dirname + "/home.html");
+});
+
+app.get("/index", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 

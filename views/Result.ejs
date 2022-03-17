@@ -1,6 +1,15 @@
 <%- include("header") -%>
 
+<section class="weather-section">
+  <form id="search-form" action="/" method="post">
+    <input type="search" name="cityName" id="search-input" placeholder="Enter City Name" required autocomplete="off">
+    <br>
+   <button type="submit" id="search-button">Search</button>
+  
+  </form>
 <main id="app-container">
+
+  
   <div id="location">
          <p> <%= location %> </p>
   </div>
@@ -12,6 +21,7 @@
   </div>
 
 </main>
+</section>
 
   </body>
 
