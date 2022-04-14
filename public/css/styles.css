@@ -1,52 +1,47 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body{
+body {
   text-align: center;
-  color:black;
+  color: black;
 }
 
-.weather-section{
+.weather-section {
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
   padding-bottom: 18%;
   font-family: cursive;
 }
 
-#search-form{
+#search-form {
   display: flex;
   justify-content: center;
-  padding-top : 7%;
+  padding-top: 7%;
   align-items: center;
 }
 
-
-#temp #temp-unit{
+#temp #temp-unit {
   font-size: 1.5rem;
 }
 
-#temp .temp-value{
+#temp .temp-value {
   font-size: 2rem;
 }
-#climate{
+#climate {
   font-size: 2.5rem;
 }
-#location{
+#location {
   font-size: 2.5rem;
 }
 
-#temp-icon{
-  width : 170px;
+#temp-icon {
+  width: 170px;
   height: 170px;
 }
 
-main{
+main {
   text-align: center;
   font-weight: bolder;
-  padding:20px;
+  padding: 20px;
   margin-top: 10px;
-  background-color: #B8FFF9;
+  background-color: #b8fff9;
   border-radius: 20px;
   width: 360px;
   height: 360px;
@@ -56,31 +51,30 @@ main{
   box-shadow: 10px 10px 20px 10px black;
 }
 
-#search-button{
-  color : white;
+#search-button {
+  color: black;
   background: #04f8e4;
   border-radius: 5px;
   margin-left: 5px;
   padding: 11px;
-  border: solid;
 }
 
-#search-button:hover{
+#search-button:hover {
   background: #ff6768;
 }
 
-#search-input{
-  width : 260px;
+#search-input {
+  width: 260px;
   font-size: 20px;
   margin: 8px 0;
-  padding : 8px 0;
+  padding: 8px 0;
   border-bottom: 3px solid #ff6768;
-  color : black;
-  outline : none;
+  color: black;
+  outline: none;
   background: none;
 }
 
-input{
+input {
   border: none;
 }
 
@@ -97,11 +91,10 @@ input{
   text-align: left;
 }
 
-#container-fluid{
-  padding-left : 0;
+#container-fluid {
+  padding-left: 0;
   padding-right: 0;
 }
-
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -116,21 +109,26 @@ input{
   font-size: 1.2rem;
 }
 
-.section1{
+.section1 {
   margin: 3% 7%;
   padding: 2% 15%;
   text-align: left;
 }
 
-#weather{
-  color : #04f8e4;
+#weather {
+  color: #04f8e4;
 }
 
-p{
+p {
   font-size: 1.5rem;
 }
 
-.btn:hover{
-  background-color: #04f8e4;
+.Card {
+  width: 400px;
+  height: 500px;
 }
 
+#error-button {
+  color: black;
+  background-color: #04f8e4;
+}
