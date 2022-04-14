@@ -92,8 +92,11 @@ input {
 }
 
 #container-fluid {
+  position: sticky;
+  top: 0;
   padding-left: 0;
   padding-right: 0;
+  z-index: 1;
 }
 
 .navbar {
@@ -114,7 +117,11 @@ input {
   padding: 2% 15%;
   text-align: left;
 }
-
+.section2 {
+  margin: 3% 7%;
+  padding: 2% 15%;
+  text-align: center;
+}
 #weather {
   color: #04f8e4;
 }
