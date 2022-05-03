@@ -1,7 +1,10 @@
+require("dotenv").config();
 const express = require("express");
 const http = require("https");
 const bodyParser = require("body-parser");
+const { config } = require("process");
 const app = express();
+const PORT = process.env.PORT;
 
 app.set("view engine", "ejs"); //EJS
 
@@ -60,4 +63,4 @@ app.get("/", function (req, res) {
 app.get("*", function (req, res) {
   res.render("error", { message: "Requested URL doesn't exist!" });
 });
-app.listen(3000);
+app.listen(PORT);
